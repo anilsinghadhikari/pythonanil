@@ -1,0 +1,3 @@
+print("My first python program")
+from shutil import copy2
+copy2('/home/qainfotech/p1/ic_launcher.png', '/home/qainfotech/p2')
