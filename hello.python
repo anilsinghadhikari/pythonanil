@@ -1,6 +1,6 @@
 import shutil
 try:
-	shutil.copytree('C:/Users/Anil-PC/Desktop/s','C:/Users/Anil-PC/Desktop/PP')
+	shutil.copytree('C:/Users/Anil-PC/Desktop/s','C:/Users/Anil-PC/Desktop/DD', ignore=shutil.ignore_patterns('*.png'))
 # Directories are the same
 except shutil.Error as e:
 	print('Directory not copied. Error: %s' % e)
